@@ -450,14 +450,14 @@ async function showModal(arg) {
         avarageContainerHalf[0].style.transform = "rotate(180deg)";
         avarageContainerHalf[1].style.transform = "rotate(" + circel + "deg)";
         avarageContainerTop.style.opacity = "0";
-        avarageContainerValue.innerHTML = data.vote_average;
+        avarageContainerValue.innerHTML = Number(data.vote_average).toFixed(1);
     }
     if (data.vote_average < 5) {
         avarageContainer.classList.add("red");
         avarageContainerHalf[0].style.transform = "rotate(180deg)";
         avarageContainerHalf[1].style.transform = "rotate(" + circel + "deg)";
         avarageContainerTop.style.opacity = "0";
-        avarageContainerValue.innerHTML = data.vote_average;
+        avarageContainerValue.innerHTML = Number(data.vote_average).toFixed(1);
     }
 
     //Runtime
