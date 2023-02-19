@@ -21,6 +21,6 @@ Try on [Netlify](https://brilliant-caramel-304a87.netlify.app/)
 
 ![](./img/modal.png)
 
-### Category Page
+### Search Result Page
 
 ![](./img/category.png)
